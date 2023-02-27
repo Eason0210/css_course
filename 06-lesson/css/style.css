@@ -1,0 +1,15 @@
+body {
+    padding: 8%;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* input, */
+/* button { */
+/*     font: inherit; */
+/* } */
+
+p {
+    line-height: 1.5;
+    font-weight: lighter;
+}
