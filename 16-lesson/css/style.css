@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
+/* Begin Reset */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,17 @@
 img {
     display: block;
 }
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: -999999px;
+}
+/* End Utility Classes */
 
 body {
   font-family: "Nunito", sans-serif;
@@ -21,10 +33,20 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+
+    background-color: rgb(251, 210, 156);
+    background-image: url('../img/map-2176x1451.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .h1 {
     font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    /* background-color: hsla(0, 0%, 0%, 0.40); */
+    /* padding: 0.25rem; */
+    /* border-radius: 10px; */
 }
 .profile-pic-figure {
     width: 35%;
