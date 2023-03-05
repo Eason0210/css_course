@@ -14,7 +14,18 @@ body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
 }
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
 
+.h1 {
+    font-size: 500%;
+}
 .profile-pic-figure {
     width: 35%;
 }
